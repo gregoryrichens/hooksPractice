@@ -10,7 +10,7 @@ import "./styles.css";
     `false` to `true` after `delay` seconds.
 */
 
-// *****
+// ******
 // CUSTOM HOOK IMPLEMENTED BELOW
 function useWait (delay) {
   const [waited, setWaited] = useState(false);
@@ -24,7 +24,7 @@ function useWait (delay) {
   return waited;
 }
 // CUSTOM HOOK IMPLEMENTED ABOVE
-// *****
+// ******
 
 function Wait({ delay = 1000, placeholder, ui }) {
   const show = useWait(delay)
