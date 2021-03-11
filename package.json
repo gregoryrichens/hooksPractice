@@ -1,0 +1,11 @@
+{
+    "name": "Hooks Practice",
+    "description": "tooling around with hooks",
+    "authors": "Gregory Richens",
+    "version": "1.0.0",
+    "main": "pathToMain",
+    "dependencies": {
+        "lodash": "^4.17.21",
+        "react": "^17.0.1"
+    }
+}
